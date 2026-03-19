@@ -229,5 +229,7 @@ ll-34 is probably as close to owning an actual 11/34 as can be. Start ATTN/11 wi
 ll-34 --lda ATTN-11.bin
 ```
 
+Or for a quick demo, use the WebAssembly version available here: https://dbrll.github.io/ll-34/.
+
 SIMH also works, but it simulates the high level behavior (not the circuit) of a PDP-11 and runs at host CPU speed.
 It can be slowed down artificially, however the timing is not cycle-accurate, making it less suitable for performance tuning or for an authentic experience.
