@@ -106,7 +106,7 @@ TRAINING...
 
 ## Prototype
 
-Before committing to assembly, correctness had to be proven. The floating then fixed-point arithmetic were prototyped and validated in [Sheaf](https://sheaf-lang.org), my functional ML framework with built-in observability.
+Before committing to assembly, correctness had to be proven. The floating then fixed-point arithmetic were prototyped and validated in [Sheaf](https://github.com/sheaf-lang/sheaf), my functional ML framework with built-in observability.
 
 Sheaf offers several advantages over Python for this kind of ML work: about a third less code, stronger correctness guarantees from its purely functional semantics, and built-in tracing of every intermediate tensor with its shape, range, and timing. This is invaluable when developing fixed-point arithmetic.
 
